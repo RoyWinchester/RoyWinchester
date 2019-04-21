@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="PlanetLottery:war exploded">
+    <output-path>$PROJECT_DIR$/web/WEB-INF/classes</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="PlanetLottery/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PlanetLottery" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/stax-api-1.0.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/xmlbeans-2.6.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/fastjson-1.1.28.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-3.6-20091214.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-codec-1.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-3.10.1-20140818.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-ooxml-3.6-20091214.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-ooxml-3.10.1-20140818.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-examples-3.10.1-20140818.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-excelant-3.10.1-20140818.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-scratchpad-3.10.1-20140818.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-ooxml-schemas-3.10.1-20140818.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

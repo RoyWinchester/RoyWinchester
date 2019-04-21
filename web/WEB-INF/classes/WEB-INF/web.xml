@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+    <servlet>
+        <display-name>LoginServlet</display-name>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/servlet/LoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <display-name>CreateYZMServlet</display-name>
+        <servlet-name>CreateYZMServlet</servlet-name>
+        <servlet-class>servlet.CreateYZMServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateYZMServlet</servlet-name>
+        <url-pattern>/servlet/CreateYZMServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <display-name>CandidateServlet</display-name>
+        <servlet-name>CandidateServlet</servlet-name>
+        <servlet-class>servlet.CandidateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CandidateServlet</servlet-name>
+        <url-pattern>/servlet/CandidateServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>CandidateJsonServlet</display-name>
+        <servlet-name>CandidateJsonServlet</servlet-name>
+        <servlet-class>servlet.CandidateJsonServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CandidateJsonServlet</servlet-name>
+        <url-pattern>/servlet/CandidateJsonServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>ExcelExportServlet</display-name>
+        <servlet-name>ExcelExportServlet</servlet-name>
+        <servlet-class>servlet.ExcelExportServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExcelExportServlet</servlet-name>
+        <url-pattern>/servlet/ExcelExportServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>ExcelImportServlet</display-name>
+        <servlet-name>ExcelImportServlet</servlet-name>
+        <servlet-class>servlet.ExcelImportServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExcelImportServlet</servlet-name>
+        <url-pattern>/servlet/ExcelImportServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>RegisterServlet</display-name>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/servlet/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <display-name>RollServlet</display-name>
+        <servlet-name>RollServlet</servlet-name>
+        <servlet-class>servlet.RollServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RollServlet</servlet-name>
+        <url-pattern>/servlet/RollServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
